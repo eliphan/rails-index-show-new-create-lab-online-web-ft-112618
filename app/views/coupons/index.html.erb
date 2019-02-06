@@ -1,7 +1,8 @@
 <h1>Coupons</h1>
-<div><% @coupons.each do |coupon| %>
+<div>
+  <% @coupons.each do |coupon| %>
     <%= coupon.coupon_code %>
     <br>
     <%= coupon.store %>
+  <% end %>
 </div>
-<% end %>
